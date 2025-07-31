@@ -1,0 +1,28 @@
+
+ .signin-btn {
+  background: transparent;
+  border: none;
+  color: blue;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  transition: background 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 37px;
+  right: 100px;
+}
+
+.log-icon {
+  width: 25px;
+  height: 25px;
+  flex-shrink: 0; 
+  min-width: 18px;
+}
+
+.log-icon:hover{
+  color: rgb(112, 53, 200);
+}
