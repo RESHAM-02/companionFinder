@@ -1,14 +1,17 @@
 .wrapper{
     position: relative;
+    flex-direction: column;
     width: 400px;
     height: 450px;
-    background: linear-gradient(to right, green, blue);
+    margin: 70px;
+    height: 100%;
+    background: #ffff;
     justify-content: center;
     border: 2px solid black;
     backdrop-filter: blur(1px);
     border-radius: 15px;
     box-shadow: 0 0 10px black;
-    color: #fff;
+    color: #c4a9a9;
     display: flex ;
     align-items: center;
     overflow: hidden;
@@ -45,7 +48,7 @@
 .wrapper .form-box.register{
     position: absolute;
     transition: none;
-    translate: 400px;
+    translate: 600px;
 
 }
  
@@ -65,7 +68,7 @@ form .input-box{
 
 
 .input-box input{
-    width: 5o%%;
+    width: 50%;
     height: 50%;
     background:transparent;
     border: none;
@@ -117,7 +120,10 @@ form button{
     height: 40px;
     width: 50%;
     justify-content: center;
+    color: black;
     text-align: center;
+    border: black 2px solid;
+    border-radius: 10%;
     margin: 15px 15px 15px 70px;
     border-radius: 20px;
     background: transparent;
@@ -126,7 +132,8 @@ form button{
 }
 
 form button:hover{
-    background: #d5c4c4;
+    background: rgb(36, 38, 41);
+    color: white;
 }
 
 form .register-link{

@@ -2,11 +2,12 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
   width: 100vw;
   padding: 1rem;
-  background: rgb(178, 162, 162);
+  background: transparent;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
-  height: 80px;
+  height: 45px;
 }
 
 .navbar-brand {
@@ -19,6 +20,7 @@
   height: 40px;
   border-radius: 50%;
 }
+
 
 .brand-name {
   margin-left: 0.5rem;
@@ -76,5 +78,24 @@
 
 .hero-image {
   flex: 1;
+}
+
+/* How It Works page styles */
+.how-it-works-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.steps {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.step {
+  padding: 1.5rem;
+  background-color: #f8fafc;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
